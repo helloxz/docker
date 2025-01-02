@@ -3,7 +3,7 @@
 # 运行zdir
 run() {
     # 启动 Redis
-    redis-server /opt/tcp_mk/conf/redis.conf --daemonize yes
+    redis-server /opt/tcp_mk/redis/conf/redis.conf --daemonize yes
 
     # 检查 Redis 是否启动成功
     if [ $? -eq 0 ]; then
