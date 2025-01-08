@@ -32,4 +32,4 @@ install() {
     chmod +x tcpmk_node
 }
 
-init
+init && install
