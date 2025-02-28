@@ -1,4 +1,4 @@
-from alpine:3.18
+from debian:12-slim
 RUN mkdir -p /opt/wp2ai
 WORKDIR /opt/wp2ai
 #复制启动文件
