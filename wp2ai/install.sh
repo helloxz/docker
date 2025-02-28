@@ -12,7 +12,7 @@ init() {
     apt-get update
     
     # 安装必要软件
-    apt-get install -y curl wget build-essential && rm -rf /var/lib/apt/lists/*
+    apt-get install -y curl wget && rm -rf /var/lib/apt/lists/*
 
     # 拷贝运行文件
     chmod +x /root/run.sh

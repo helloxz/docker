@@ -1,4 +1,4 @@
-from debian:11-slim
+from debian:12-slim
 RUN mkdir -p /opt/wp2ai
 WORKDIR /opt/wp2ai
 #复制启动文件
