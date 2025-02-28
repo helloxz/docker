@@ -3,10 +3,9 @@
 BASE_DIR="/opt/wp2ai"
 
 
-# 运行zdir
+# 运行
 run() {
     cd ${BASE_DIR}
-    chmod +x sh/*.sh
     # 设置DNS
     # echo "nameserver 223.5.5.5" > /etc/resolv.conf
     # echo "nameserver 119.29.29.29" >> /etc/resolv.conf
